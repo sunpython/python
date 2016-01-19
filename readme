@@ -1,0 +1,20 @@
+###老男孩python学员###
+qq群昵称：71-sungwd-顾伟栋
+svn用户名:stu107411
+博客：http://www.cnblogs.com/sunface/
+github:https://github.com/sunpython/python
+qq:77625811
+邮箱:77625811@qq.com
+#######################
+
+	注：这是最外层的readme  里面还有每一天的readme
+	
+	结构：
+		/
+		./day1  第一天
+		./day1/flowchart 流程图文件夹
+		./day1/user_login.py 用户登陆
+		./day1/tree_list.py 三级菜单
+		./day1/error.log 锁定用户文件
+		./day1/user.txt 用户表
+		./day1/readme 第一天项目说明

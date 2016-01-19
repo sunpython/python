@@ -6,17 +6,25 @@ github:https://github.com/sunpython/python
 qq:77625811
 邮箱:77625811@qq.com
 #######################
-    flow-process 流程图文件夹
+    flowchart 流程图文件夹
     user_login.py 用户登陆作业
     tree_list.py 三层菜单作业
     readme 第1天的文件说明
-运行要示：python3.x环境中运行，请确保您的系统支持unique
+
+运行方法：python3.x环境中运行，请确保您的系统支持unicode
+          1,复制项目到你的电脑
+          2，(1)执行 python3 user_login.py
+             (2)执行 python3 tree_list.py
 
 user_login.gy功能及细节
 
     数据：
 
     1.把账号存放在user.txt中。用户和密码用"|"分隔，每一行一个账号
+        hwj|kk123456
+        gwd|love520
+        python|114114114
+        daughter|140210
     2,error.log中存放被锁定的用户
     流程：
 
