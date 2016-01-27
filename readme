@@ -12,9 +12,4 @@ qq:77625811
 	结构：
 		/
 		./day1  第一天
-		./day1/flowchart 流程图文件夹
-		./day1/user_login.py 用户登陆
-		./day1/tree_list.py 三级菜单
-		./day1/error.log 锁定用户文件
-		./day1/user.txt 用户表
-		./day1/readme 第一天项目说明
+		./day2  第二天 
