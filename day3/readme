@@ -1,0 +1,42 @@
+###老男孩python学员###
+qq群昵称：71-sungwd-顾伟栋
+svn用户名:stu107411
+博客：http://www.cnblogs.com/sunface/
+github:https://github.com/sunpython/python
+qq:77625811
+邮箱:77625811@qq.com
+#######################
+
+    flowchart 流程图文件夹
+    config_file.py 配置文件功能
+    config         配置文件
+    configbak      备份的配置文件
+    readme         说明文件
+
+    config_file.py
+
+        1，开发思路
+            方法：老师的demo方法写得很好，利用了2个文件逐行同时读写，遇到节点才写入列表中的内容的方法！但重新打一遍他的代码对自己没进步，所以我用了正则来写
+            1，首先用正则找到文件匹配项，并把找到的内容加到列表，并格式化成字符串作为文件的中部
+            2，用正则表达式获取文件的首尾
+            3, 合成文件
+            4,添加和修改的思路一样，都是对中部形成有列表进行追加和移除
+            用户测试数据
+                1,查找 www.oldboy.org
+                2,添加 {"backend":"www.oldboy.org","record":{"server":"100.1.7.9","weight":20,"maxconn":30}}
+                3,删除 {"backend":"www.oldboy.org","record":{"server":"100.1.7.9","weight":20,"maxconn":30}}
+        2,使用说明
+
+            A 用户选择菜单  1 查找 2 添加 3 删除 4 退出
+            B 查找：读取文件内容，根据用户输入用正则匹配到节点，并用行分隔组成列表返回 www.oldboy.org
+            C 添加 输入字典字符串不能用单引号，否则会出错{"backend":"www.oldboy.org","record":{"server":"100.1.7.9","weight":20,"maxconn":30}}
+            取出backend的值并到文件中查找出内容，如果节点下内容存在则不作任何操作，不存在，把该内容追加到上一步的列表，取出文件首尾，最后拼接，生成文件
+            D 删除  输入字典字符串不能用单引号，否则会出错{"backend":"www.oldboy.org","record":{"server":"100.1.7.9","weight":20,"maxconn":30}}
+            取出backend的值并到文件中查找出内容，如果节点下内容存在则把该内容从内容列表中移除，取出文件首尾，最后拼接，生成文件
+            E 退出
+        知识点：
+            正则运用，文件操作，文件的判断、删除、重命名等
+
+
+
+
